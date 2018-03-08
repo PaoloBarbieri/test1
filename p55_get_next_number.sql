@@ -11,7 +11,7 @@ begin
     return;
   end
   
-  update commonnumbermanager
+  update f55_commonnumbermanager
   set num = @num + 1
   where type = @v_type;
   
